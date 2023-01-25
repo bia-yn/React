@@ -62,3 +62,46 @@
     float: right;
   }
   
+@media only screen  and (max-width:700px){
+  
+.menu {
+  height: 40px;
+  gap: 5px 10px;
+}
+
+#fotologo {
+  left: 60px;
+  top: 20px;
+  width: 37px;
+  height: 37px;
+}
+
+#sdq {
+  font-size: 20px;
+  margin: 10px;
+  letter-spacing: 2px;
+}
+
+
+li {
+  margin: 10px;
+}
+
+li a {
+  border-radius: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+li a:hover {
+  background-color: #77bbb3;
+  color: aliceblue;
+}
+
+#minha_conta {
+  float: right;
+}
+
+  
+}

@@ -1,10 +1,14 @@
 import './App.css';
+import './responsivo.css';
 import './componentes/Menu.css';
 import Menu from './componentes/Menu';
 import conversa from './img/conversa.png';
 import caderno from './img/caderno.png';
 import calendario from './img/calendario.png';
 import telefone from './img/telefone.png';
+import medico from './img/medico.png';
+import remedios from './img/remedios.png';
+
 
 
 
@@ -94,6 +98,71 @@ function App() {
       </div>
       </div>
     </div>
+
+    {/*tipos de coisas - caixas  */}
+  <div class="certificadosTd">
+      <h1 id="certificados">Certificados.Eficazes.Humanos</h1>
+
+      <div>
+        <img class="tiposfts" src={medico} alt="medico" />
+        <img class="tiposfts" src={remedios} alt="remedios" />
+        <img class="tiposfts" src={conversa} alt="conversa" />
+      </div>
+
+      <div class="ir">
+        <h3>AGENDA MÉDICA</h3>
+        <p>Agendar sua consulta médica.</p>
+        <button class="butaoP" onclick="">AGENDAR</button>
+      </div>
+
+      <div class="ir">
+        <h3>CONSULTAR REMÉDIOS</h3>
+        <p>Consultar remédios disponiveis.</p>
+        <button class="butaoP" onclick="">CONSULTAR</button>
+      </div>
+
+      <div class="ir">
+        <h3>FALE CONOSCO</h3>
+        <p>Tire suas dúvidas.</p>
+        <button class="butaoP" onclick="">FALE CONOSCO</button>
+      </div>
+  </div>
+
+  
+<footer>
+  <div class="menuF">
+    <img id="ftlgf" src="logo" alt="logo" />
+
+    <div id="menuf">
+      <h2>SDQ</h2>
+      <h2>MENU</h2>
+      <h2>CONTATO</h2>
+    </div>
+
+    <div class="menufo">
+      <a href="/principal.html">
+      <p>PAGINA INCIAL</p>
+      </a>
+      <a href="agendar">
+        <p>AGENDE SUA CONSULTA</p>
+      </a>
+      <a href="#comofunciona">
+        <p>COMO FUNCIONA</p>
+      </a>
+    </div>
+
+    <div class="contato">
+      <a href="">
+        <p>(82) 98644553</p>
+      </a>
+      <a href="">
+        <p>info@meusite.com</p>
+      </a>
+    </div>
+    <h3 id="mobile">Mobile APP</h3>
+    <img id="ftcll" src="Phone" alt="app-SDQ" />
+    </div>
+  </footer>
 
     </>
   );
