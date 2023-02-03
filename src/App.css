@@ -3,14 +3,6 @@
   pointer-events: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 /*mechendo vamos la*/
 *{
@@ -23,12 +15,11 @@
 /* Parte 2 - farmaceutica*/
 
 #farmaceutica{
-  background-image: url(./img/farmaceutica.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(./img/farmaceutica.png) no-repeat center center;
+  background-size: cover;
   opacity: 90%;
   width: 100%;
-  height: 800px;
+  height: 92vh;
   justify-content: center;
 }
 
@@ -109,6 +100,9 @@
   color: black;
 }
 
+#cadastro:active {
+  transform: translateY(-1px);
+}
 /*botoes login e cadastro juntos*/
 .butoesPjuntos{
   margin: 40px;

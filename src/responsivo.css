@@ -16,7 +16,35 @@
 
    #loginfundo{
     height: 60vh;
+    background-position: center;
    }
+
+   
+#nome , #email,  #senha{
+   font-size: 20px;
+   padding-top: 3%;
+   padding-bottom: 5%;
+   width: 70%;
+   height: 10px;
+   margin-left: 60px;
+   margin-bottom: 20px;
+   padding-left: 5%;
+   
+ }
+ 
+ 
+ #fazerlogin{
+   font-size: 40px;
+ }
+ 
+ 
+  #acesso {
+   color: #77BBB3;
+   font-size: 25px;
+   text-align: center;
+   padding-top: 10px;
+ }
+ 
 
   }
   

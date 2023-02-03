@@ -9,13 +9,6 @@ import telefone from './img/telefone.png';
 import medico from './img/medico.png';
 import remedios from './img/remedios.png';
 
-
-
-
-
-
-
-
 function App() {
   return (
     <>
@@ -45,17 +38,17 @@ function App() {
     <div id="loginquadrado">
       <form>
         <div id="nome">
-          <label for="nome">Nome: </label>
+          <label htmlfor="nome">Nome: </label>
           <input type="text" id="nome" required />
         </div>
 
         <div id="email">
-          <label for="email">E-mail: </label>
+          <label htmlfor="email">E-mail: </label>
           <input type="email" id="email" required/>
         </div>
 
         <div id="senha">
-          <label for="senha">Senha: </label>
+          <label htmlfor="senha">Senha: </label>
           <input type="password" id="senha" required/>
         </div>
     
