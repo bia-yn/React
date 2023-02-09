@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
    
    #farmaceutica{
     height: 100vh;
@@ -11,17 +11,19 @@
    }
 
    #saude{
-    font-size: 15px;
+    font-size: 20px;
+    margin: auto;
+    align-items: center;
    }
 
-   #loginfundo{
-    height: 60vh;
-    background-position: center;
+   .loginfundo{
+    height: 1020px;
+    width: 100%;
    }
 
    
-#nome , #email,  #senha{
-   font-size: 20px;
+.inputLog{
+   font-size: 15px;
    padding-top: 3%;
    padding-bottom: 5%;
    width: 70%;
@@ -39,11 +41,244 @@
  
  
   #acesso {
-   color: #77BBB3;
-   font-size: 25px;
-   text-align: center;
-   padding-top: 10px;
+   font-size: 20px;
  }
+
+ 
+#loginquadrado{
+  width: 60%;
+  height: 400px;
+  margin: auto;
+  padding: 10px 0px;
+  gap: 30px;
+}
+
+
+#nome , #email,  #senha{
+  font-size: 20px;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  width: 70%;
+  height: 10px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  padding-left: 5%;
+  
+}
+
+
+#fazerlogin{
+  font-size: 30px;
+}
+
+
+ #acesso {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+/**/
+
+#esqueci_senha{
+  padding: 5px;
+  border: #A69573;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#esqueci_senha:hover{
+  border:#A69573 solid 2px;
+  transform: scale(1.0);
+}
+
+
+
+/*como funciona*/
+.funciona{
+  width: 100%;
+  height: 55rem;
+  margin: 20px;
+  float: right;
+  margin-bottom: 30px;
+}
+
+.funciona2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 200px;
+  width: 50%;
+  margin-left: 10px;
+  padding-left: 50px;
+  gap: 30px;
+}
+
+#comofunciona {
+  margin-bottom: 100px;
+  margin-top: 50px;
+  font: italic 15px;
+}
+
+#telefone {
+  margin-left: 60px;
+  float: left;
+  width: 40%;
+}
+
+
+.fototipos {
+  height: 100px;
+  width: 100px;
+  padding-bottom: 5%;
+}
+
+.funcionaP {
+  color: #77bbb3;
+  font-size: 15px;
+}
+
+.funcionatipos h3 {
+  color: #6f9d98;
+  font: normal, 20px;
+}
+
+.funcionatipos {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#fale #consulte #agendar {
+  margin-top: 4%;
+}
+
+#linkcomof {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+/*tipos de coisas para fazer*/
+.certificadosTd{
+  width: 100%;
+  height: 90vh;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#certificados {
+  font: italic;
+  font-size: 30px;
+  font-weight: normal;
+  color: #77bbb3;
+  text-align: center;
+}
+
+.tiposfts {
+  width: 150px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 90px;
+}
+
+.tdsFts{
+  gap: 50px;
+  margin-left: 30px;
+}
+
+.ir {
+  font-size: 10px;
+  margin: 35px;
+  gap: 10px;
+  float: right;
+  color: #6f9d98;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  width: 50%;
+  padding: 5%;
+  display: flex;
+  border: black solid 2px;
+  border-radius: 20px;
+  box-shadow: 24px 24px 48px #e3e3e3, -24px -24px 48px #ffffff;
+}
+
+#reverso .ir{
+  float: right;
+}
+
+#reverso.ir 
+#foto-reverse.tiposfts{
+  flex-direction: column-reverse;
+}
+
+.ir .butaoP {
+  height: 40px;
+  font-size: 8px;
+  width: 60px;
+  padding: 2px;
+  margin: 8px 4px 4px 8px;
+  border-radius: 10px;
+}
+
+
+/*menu final*/
+footer {
+  height: 80vh;
+  flex-direction: column;
+}
+
+#ftlgf {
+  margin: 2% 2% 2%;
+}
+
+#menuf {
+  padding: -3% 30% 8% 4%;
+  margin: -4% 20% 5% 6%;
+}
+
+.menufo {
+  gap: 25px;
+  margin-left: 38%;
+  text-decoration: none;
+  color: black;
+  width: 26%;
+  height: 70%;
+  padding: 5px 10px 2px 4px;
+}
+
+.menufo a {
+  text-decoration: none;
+  color: black;
+}
+
+.menufo a :hover {
+  color: darkgrey;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+#mobile {
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-bottom: 1%;
+}
+
+#ftcll {
+  display: block;
+  margin: 1% 8% 5% 5%;
+}
+
+
  
 
   }

@@ -37,7 +37,7 @@ function App() {
     <p id="acesso">para ter acesso com mais facilidade</p>
     <div id="loginquadrado">
       <form>
-        <div id="nome">
+        <div id="nome" class="inputLog">
           <label htmlfor="nome">Nome: </label>
           <input type="text" id="nome" required />
         </div>
@@ -93,22 +93,23 @@ function App() {
     </div>
 
     {/*tipos de coisas - caixas  */}
-  <div class="certificadosTd">
-      <h1 id="certificados">Certificados.Eficazes.Humanos</h1>
 
-      <div>
+      <h1 id="certificados">Certificados.Eficazes.Humanos</h1>
+      <div class="certificadosTd">
+      <div class="tdsFts">
         <img class="tiposfts" src={medico} alt="medico" />
-        <img class="tiposfts" src={remedios} alt="remedios" />
+        <img class="tiposfts" id='foto-reverse' src={remedios} alt="remedios" />
         <img class="tiposfts" src={conversa} alt="conversa" />
       </div>
 
+    <div class="irTd">
       <div class="ir">
         <h3>AGENDA MÉDICA</h3>
         <p>Agendar sua consulta médica.</p>
         <button class="butaoP" onclick="">AGENDAR</button>
       </div>
 
-      <div class="ir">
+      <div class="ir" id='reverso'>
         <h3>CONSULTAR REMÉDIOS</h3>
         <p>Consultar remédios disponiveis.</p>
         <button class="butaoP" onclick="">CONSULTAR</button>
@@ -119,6 +120,7 @@ function App() {
         <p>Tire suas dúvidas.</p>
         <button class="butaoP" onclick="">FALE CONOSCO</button>
       </div>
+  </div>
   </div>
 
   
@@ -132,6 +134,7 @@ function App() {
       <h2>CONTATO</h2>
     </div>
 
+
     <div class="menufo">
       <a href="/principal.html">
       <p>PAGINA INCIAL</p>
@@ -144,7 +147,7 @@ function App() {
       </a>
     </div>
 
-    <div class="contato">
+    <div class="menufo">
       <a href="">
         <p>(82) 98644553</p>
       </a>

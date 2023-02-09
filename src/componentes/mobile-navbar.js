@@ -1,6 +1,8 @@
-import './Menu';
 
 
+/*import './Menu';*/
+
+/*
 class MobileNavbar{
     constructor(mobileMenu , navList, navLinks){
         this.mobileMenu = document.querySelector(mobileMenu);
@@ -44,3 +46,18 @@ const mobileNavbar = new MobileNavbar(
 );
 
 mobileNavbar.init();
+*/
+
+
+import './Menu'
+
+const itens = document.getElementById('itens');
+
+
+function clickMenu(){
+    if (itens.style.display === 'block') {
+        itens.style.display = 'none'
+    }else{
+        itens.style.display = 'block'
+    }
+}
